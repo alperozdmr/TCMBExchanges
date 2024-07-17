@@ -46,6 +46,7 @@ namespace Business.Helpers
                                     BanknoteBuying = (decimal?)c.Element("BanknoteBuying") ?? 0,
                                     BanknoteSelling = (decimal?)c.Element("BanknoteSelling") ?? 0,
 
+
                                 }).ToList();
 
             return currencies;
